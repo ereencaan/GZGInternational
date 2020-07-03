@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\styles.css" />
+    <None Include="wwwroot\img\about\1.jpg" />
+    <None Include="wwwroot\img\about\2.jpg" />
+    <None Include="wwwroot\img\about\3.jpg" />
+    <None Include="wwwroot\img\about\4.jpg" />
+    <None Include="wwwroot\img\close-icon.svg" />
+    <None Include="wwwroot\img\favicon.ico" />
+    <None Include="wwwroot\img\homepage.png" />
+    <None Include="wwwroot\img\logos\creative-market.jpg" />
+    <None Include="wwwroot\img\logos\designmodo.jpg" />
+    <None Include="wwwroot\img\logos\envato.jpg" />
+    <None Include="wwwroot\img\logos\themeforest.jpg" />
+    <None Include="wwwroot\img\map-image.png" />
+    <None Include="wwwroot\img\navbar-logo.svg" />
+    <None Include="wwwroot\img\portfolio\01-full.jpg" />
+    <None Include="wwwroot\img\portfolio\01-thumbnail.jpg" />
+    <None Include="wwwroot\img\portfolio\02-full.jpg" />
+    <None Include="wwwroot\img\portfolio\02-thumbnail.jpg" />
+    <None Include="wwwroot\img\portfolio\03-full.jpg" />
+    <None Include="wwwroot\img\portfolio\03-thumbnail.jpg" />
+    <None Include="wwwroot\img\portfolio\04-full.jpg" />
+    <None Include="wwwroot\img\portfolio\04-thumbnail.jpg" />
+    <None Include="wwwroot\img\portfolio\05-full.jpg" />
+    <None Include="wwwroot\img\portfolio\05-thumbnail.jpg" />
+    <None Include="wwwroot\img\portfolio\06-full.jpg" />
+    <None Include="wwwroot\img\portfolio\06-thumbnail.jpg" />
+    <None Include="wwwroot\img\team\team1.jpg" />
+    <None Include="wwwroot\img\team\team2.jpg" />
+    <None Include="wwwroot\img\team\team3.jpg" />
+    <None Include="wwwroot\js\scripts.js" />
+    <None Include="wwwroot\mail\contact_me.js" />
+    <None Include="wwwroot\mail\contact_me.php" />
+    <None Include="wwwroot\mail\jqBootstrapValidation.js" />
+  </ItemGroup>
+
+</Project>
